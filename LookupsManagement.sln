@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{A88DAA25-A95C-4BB1-AE44-96EE7F963F32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LookupManagement", "LookupManagement", "{4A9606AA-D948-4274-A6B3-7792F00370AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{405C2DC5-E168-486E-A73E-8898EB44B71F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{80CFE67A-7986-4A8A-A548-C4F0EDA6A6BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NIC.SBCPlatform.SharedModules.LookupManagement.EFCore", "LookupsManagement\NIC.SBCPlatform.SharedModules.LookupManagement.EFCore\NIC.SBCPlatform.SharedModules.LookupManagement.EFCore.csproj", "{CD24093E-7105-40EA-9A71-8326A0945BEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NIC.SBCPlatform.SharedModules.Services", "LookupsManagement\NIC.SBCPlatform.SharedModules.Services\NIC.SBCPlatform.SharedModules.Services.csproj", "{313CD16F-E540-4EAC-9616-7091BC1846E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NIC.SBCPlatform.SharedModules.LookupManagement.Domain.Shared", "LookupsManagement\NIC.SBCPlatform.SharedModules.LookupManagement.Domain.Shared\NIC.SBCPlatform.SharedModules.LookupManagement.Domain.Shared.csproj", "{889C9CAE-B5E8-41FB-B13A-A9E3448204D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NIC.SBCPlatform.SharedModules.LookupManagement.Domain", "LookupsManagement\NIC.SBCPlatform.SharedModules.LookupManagement.Domain\NIC.SBCPlatform.SharedModules.LookupManagement.Domain.csproj", "{8648DA1F-A6F9-49EF-BE98-6BA6A9527DD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NIC.SBCPlatform.SharedModules.LookupManagement.Application.Contracts", "LookupsManagement\NIC.SBCPlatform.SharedModules.LookupManagement.Application.Contracts\NIC.SBCPlatform.SharedModules.LookupManagement.Application.Contracts.csproj", "{6D357BCF-A8A6-45B5-AED4-A8212B4B851D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NIC.SBCPlatform.SharedModules.LookupManagement.Application", "LookupsManagement\NIC.SBCPlatform.SharedModules.LookupManagement.Application\NIC.SBCPlatform.SharedModules.LookupManagement.Application.csproj", "{0D280EFA-BB15-4A76-A8D0-CE2623AF64D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NIC.SBCPlatform.SharedModules.LookupManagement.HttpApi", "LookupsManagement\NIC.SBCPlatform.SharedModules.LookupManagement.HttpApi\NIC.SBCPlatform.SharedModules.LookupManagement.HttpApi.csproj", "{E8D4BB91-30EB-4951-AB04-8C40B539BBC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{5CB549EE-2C8F-461E-B3E9-BE8029426D27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NIC.SBCPlatform.SharedModules.EFCore.DbMigrations", "LookupsManagement\NIC.SBCPlatform.SharedModules.EFCore.DbMigrations\NIC.SBCPlatform.SharedModules.EFCore.DbMigrations.csproj", "{67F80141-2FF7-4AB2-BC83-514242033707}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NIC.SBCPlatform.SharedModules.SharedInterfaces", "LookupsManagement\NIC.SBCPlatform.SharedModules.SharedInterfaces\NIC.SBCPlatform.SharedModules.SharedInterfaces.csproj", "{38F429FD-3735-4898-8E40-25CEA3FF7C78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NIC.SBCPlatform.SharedModules.SharedServices", "LookupsManagement\NIC.SBCPlatform.SharedModules.SharedServices\NIC.SBCPlatform.SharedModules.SharedServices.csproj", "{B40871ED-CB96-455C-9EA7-1201F37F40E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{AAB67918-4B78-4792-8456-50C3C1E438F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NIC.SBCPlatform.SharedModules.HttpApi.Host", "LookupsManagement\NIC.SBCPlatform.SharedModules.HttpApi.Host\NIC.SBCPlatform.SharedModules.HttpApi.Host.csproj", "{4E27512F-BF08-47D6-8CCE-D945568BA700}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD24093E-7105-40EA-9A71-8326A0945BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD24093E-7105-40EA-9A71-8326A0945BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD24093E-7105-40EA-9A71-8326A0945BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD24093E-7105-40EA-9A71-8326A0945BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313CD16F-E540-4EAC-9616-7091BC1846E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313CD16F-E540-4EAC-9616-7091BC1846E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313CD16F-E540-4EAC-9616-7091BC1846E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313CD16F-E540-4EAC-9616-7091BC1846E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889C9CAE-B5E8-41FB-B13A-A9E3448204D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889C9CAE-B5E8-41FB-B13A-A9E3448204D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889C9CAE-B5E8-41FB-B13A-A9E3448204D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889C9CAE-B5E8-41FB-B13A-A9E3448204D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8648DA1F-A6F9-49EF-BE98-6BA6A9527DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8648DA1F-A6F9-49EF-BE98-6BA6A9527DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8648DA1F-A6F9-49EF-BE98-6BA6A9527DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8648DA1F-A6F9-49EF-BE98-6BA6A9527DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D357BCF-A8A6-45B5-AED4-A8212B4B851D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D357BCF-A8A6-45B5-AED4-A8212B4B851D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D357BCF-A8A6-45B5-AED4-A8212B4B851D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D357BCF-A8A6-45B5-AED4-A8212B4B851D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D280EFA-BB15-4A76-A8D0-CE2623AF64D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D280EFA-BB15-4A76-A8D0-CE2623AF64D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D280EFA-BB15-4A76-A8D0-CE2623AF64D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D280EFA-BB15-4A76-A8D0-CE2623AF64D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8D4BB91-30EB-4951-AB04-8C40B539BBC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8D4BB91-30EB-4951-AB04-8C40B539BBC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8D4BB91-30EB-4951-AB04-8C40B539BBC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8D4BB91-30EB-4951-AB04-8C40B539BBC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F80141-2FF7-4AB2-BC83-514242033707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F80141-2FF7-4AB2-BC83-514242033707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F80141-2FF7-4AB2-BC83-514242033707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F80141-2FF7-4AB2-BC83-514242033707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F429FD-3735-4898-8E40-25CEA3FF7C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F429FD-3735-4898-8E40-25CEA3FF7C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F429FD-3735-4898-8E40-25CEA3FF7C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F429FD-3735-4898-8E40-25CEA3FF7C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40871ED-CB96-455C-9EA7-1201F37F40E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40871ED-CB96-455C-9EA7-1201F37F40E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40871ED-CB96-455C-9EA7-1201F37F40E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40871ED-CB96-455C-9EA7-1201F37F40E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E27512F-BF08-47D6-8CCE-D945568BA700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E27512F-BF08-47D6-8CCE-D945568BA700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E27512F-BF08-47D6-8CCE-D945568BA700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E27512F-BF08-47D6-8CCE-D945568BA700}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A9606AA-D948-4274-A6B3-7792F00370AF} = {A88DAA25-A95C-4BB1-AE44-96EE7F963F32}
+		{405C2DC5-E168-486E-A73E-8898EB44B71F} = {4A9606AA-D948-4274-A6B3-7792F00370AF}
+		{80CFE67A-7986-4A8A-A548-C4F0EDA6A6BB} = {405C2DC5-E168-486E-A73E-8898EB44B71F}
+		{CD24093E-7105-40EA-9A71-8326A0945BEE} = {80CFE67A-7986-4A8A-A548-C4F0EDA6A6BB}
+		{313CD16F-E540-4EAC-9616-7091BC1846E6} = {80CFE67A-7986-4A8A-A548-C4F0EDA6A6BB}
+		{889C9CAE-B5E8-41FB-B13A-A9E3448204D4} = {405C2DC5-E168-486E-A73E-8898EB44B71F}
+		{8648DA1F-A6F9-49EF-BE98-6BA6A9527DD6} = {405C2DC5-E168-486E-A73E-8898EB44B71F}
+		{6D357BCF-A8A6-45B5-AED4-A8212B4B851D} = {405C2DC5-E168-486E-A73E-8898EB44B71F}
+		{0D280EFA-BB15-4A76-A8D0-CE2623AF64D1} = {405C2DC5-E168-486E-A73E-8898EB44B71F}
+		{E8D4BB91-30EB-4951-AB04-8C40B539BBC7} = {405C2DC5-E168-486E-A73E-8898EB44B71F}
+		{5CB549EE-2C8F-461E-B3E9-BE8029426D27} = {A88DAA25-A95C-4BB1-AE44-96EE7F963F32}
+		{67F80141-2FF7-4AB2-BC83-514242033707} = {5CB549EE-2C8F-461E-B3E9-BE8029426D27}
+		{38F429FD-3735-4898-8E40-25CEA3FF7C78} = {5CB549EE-2C8F-461E-B3E9-BE8029426D27}
+		{B40871ED-CB96-455C-9EA7-1201F37F40E2} = {5CB549EE-2C8F-461E-B3E9-BE8029426D27}
+		{4E27512F-BF08-47D6-8CCE-D945568BA700} = {AAB67918-4B78-4792-8456-50C3C1E438F1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5C9D65D-8BA9-41D2-9638-1395C05887DA}
+	EndGlobalSection
+EndGlobal

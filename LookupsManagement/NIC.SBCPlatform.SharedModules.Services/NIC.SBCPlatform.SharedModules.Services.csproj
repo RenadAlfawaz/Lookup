@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Repository\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\NIC.SBCPlatform.SharedModules.LookupManagement.Domain.Shared\NIC.SBCPlatform.SharedModules.LookupManagement.Domain.Shared.csproj" />
+		<ProjectReference Include="..\NIC.SBCPlatform.SharedModules.SharedServices\NIC.SBCPlatform.SharedModules.SharedServices.csproj" />
+	</ItemGroup>
+</Project>

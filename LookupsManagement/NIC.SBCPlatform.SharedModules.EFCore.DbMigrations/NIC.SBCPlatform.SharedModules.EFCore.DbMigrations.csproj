@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<RootNamespace>NIC.SBCPlatform.SharedModules</RootNamespace>
+		<AssemblyName>NIC.SBCPlatform.SharedModules.EntityFrameworkCore.DbMigrations</AssemblyName>
+	</PropertyGroup>
+
+
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.5">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\NIC.SBCPlatform.SharedModules.LookupManagement.EFCore\NIC.SBCPlatform.SharedModules.LookupManagement.EFCore.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="EFCore\EFCoreDbMigrationsModule.cs">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Compile>
+		<Compile Update="EFCore\EFCoreIssueDbSchemaMigrator.cs">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Compile>
+		<Compile Update="EFCore\MigrationsDbContext.cs">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Compile>
+		<Compile Update="EFCore\MigrationsDbContextFactory.cs">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Compile>
+	</ItemGroup>
+
+</Project>

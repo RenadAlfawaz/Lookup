@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>NIC.SBCPlatform.SharedModules.LookupManagement</RootNamespace>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <Compile Remove="Controllers\TestController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="2.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NIC.SBCPlatform.SharedModules.LookupManagement.Application.Contracts\NIC.SBCPlatform.SharedModules.LookupManagement.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

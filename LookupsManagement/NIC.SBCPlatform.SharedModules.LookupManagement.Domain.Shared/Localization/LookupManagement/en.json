@@ -1,0 +1,41 @@
+{
+  "culture": "en",
+  "texts": {
+    "Menu:Home": "Home",
+    "Welcome": "Welcome",
+    "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information, visit abp.io.",
+    "SharedModules.LookupManagement:1001": "Object not found",
+    "SharedModules.LookupManagement:1002": "Name should be in English",
+    "SharedModules.LookupManagement:1003": "Name should be in Arabic",
+    "SharedModules.LookupManagement:1004": "Country not found",
+    "SharedModules.LookupManagement:1005": "Name should be Unique",
+    "SharedModules.LookupManagement:1006": "Country already exist",
+    "SharedModules.LookupManagement:1007": "City already exist",
+    "SharedModules.LookupManagement:1008": "Lookup already exist",
+    "SharedModules.LookupManagement:1009": "Lookup Type not found",
+
+    "SharedModules.LookupManagement:1010": "Error in entered fields!",
+
+
+    "LookupEnglishName": "Lookup English Name",
+    "LookupArabicName": "Lookup Arabic Name",
+    "LookupIsActive": "Lookup Is Active",
+    "LookupName": "Lookup Name",
+    "LookupType": "Lookup Type",
+
+    "CountryEnglishName": "Country English Name",
+    "CountryArabicName": "Country Arabic Name",
+    "CountryIsActive": "Country Is Active",
+    "CountryName": "Country Name",
+
+    "CityEnglishName": "City English Name",
+    "CityArabicName": "City Arabic Name",
+    "CityIsActive": "City Is Active",
+    "CityName": "City Name",
+    "Country": "Country"
+
+
+
+
+  }
+}

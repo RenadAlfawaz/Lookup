@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>NIC.SBCPlatform.SharedModules.LookupManagement.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\IHome.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore" Version="2.9.0" />
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="2.9.0" />
+    <PackageReference Include="Volo.Abp.Caching" Version="2.9.0" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.HangFire" Version="2.9.0" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="2.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NIC.SBCPlatform.SharedModules.EFCore.DbMigrations\NIC.SBCPlatform.SharedModules.EFCore.DbMigrations.csproj" />
+    <ProjectReference Include="..\NIC.SBCPlatform.SharedModules.LookupManagement.Application.Contracts\NIC.SBCPlatform.SharedModules.LookupManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="..\NIC.SBCPlatform.SharedModules.LookupManagement.Domain.Shared\NIC.SBCPlatform.SharedModules.LookupManagement.Domain.Shared.csproj" />
+    <ProjectReference Include="..\NIC.SBCPlatform.SharedModules.LookupManagement.Domain\NIC.SBCPlatform.SharedModules.LookupManagement.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
